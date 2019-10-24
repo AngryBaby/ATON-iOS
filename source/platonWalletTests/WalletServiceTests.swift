@@ -113,13 +113,13 @@ class WalletServiceTests: XCTestCase {
         let expectaion = self.expectation(description: "testCreatWallet")
         
         var tempWallet: Wallet?
-        WalletService.sharedInstance.createWallet(name: "wallet-create-070", password: "123456", completion: { (wallet, error) in
+        WalletService.sharedInstance.createWallet(name: "wallet-create-071", password: "123456", completion: { (wallet, error) in
             XCTAssertNotNil(wallet, "create wallet shoulde be not nil")
             tempWallet = wallet
             expectaion.fulfill()
         })
         
-        wait(for: [expectaion], timeout: 5.0)
+        wait(for: [expectaion], timeout: 10.0)
         if let wallet = tempWallet {
             WalletService.sharedInstance.deleteWallet(wallet)
         }

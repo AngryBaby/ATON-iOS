@@ -105,19 +105,6 @@ class platon071Tests: XCTestCase {
         }
     }
     
-    func testSaveDelegateRecord() {
-        let walletAddress = "0xa7074774f4e1e033c6cbd471ec072f7734144a0c"
-        let nodeId = "0x81f4ab0012303bff59c35cead6c2487909cbf59bb0b2b677c2ff36d7009b39a572b2f73214d8590022d20410cbf92631844a7ce8a7d5b840c0e25cd93dc234d8"
-        let detailDel = DelegateDetailDel(walletAddress: walletAddress, nodeId: nodeId, delegationBlockNum: "0x1000")
-        DelegatePersistence.add(delegates: [detailDel])
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-            let predicate = NSPredicate(format: "compoundKey == %@ AND chainUrl == %@", "\(walletAddress)\(nodeId)", SettingService.getCurrentNodeURLString())
-            let r = try! Realm(configuration: RealmHelper.getConfig()).objects(DelegateDetailDel.self).filter(predicate)
-            let result = Array(r)
-            XCTAssert(result.count > 0, "delgate record should be exist")
-        }
-    }
-    
     func testSaveTransactionPersistence() {
         let transaction = Transaction()
         transaction.txhash = "0x06961bb2492a0090b7cb177c0f7f401d0d62c2e32550f993a95ae80e44f23691"
