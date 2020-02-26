@@ -467,6 +467,7 @@
 		818D74EC2184349000EB1402 /* QRCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 818D74EB2184349000EB1402 /* QRCodeView.xib */; };
 		818D74EE21843A8900EB1402 /* QRDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818D74ED21843A8900EB1402 /* QRDisplayViewController.swift */; };
 		818D74F521845D2500EB1402 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818D74F421845D2500EB1402 /* PopUpViewController.swift */; };
+		818F412E24064E630082CE98 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 818F412B240633D10082CE98 /* Info.plist */; };
 		81926A07231DFEC500CAF498 /* RemoteVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81926A06231DFEC500CAF498 /* RemoteVersion.swift */; };
 		819333FF223FD08600DCFD93 /* AssetPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819333FE223FD08600DCFD93 /* AssetPageViewController.swift */; };
 		8193340122408DDC00DCFD93 /* AssetVCSharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8193340022408DDC00DCFD93 /* AssetVCSharedData.swift */; };
@@ -1180,6 +1181,9 @@
 		818D74EB2184349000EB1402 /* QRCodeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QRCodeView.xib; sourceTree = "<group>"; };
 		818D74ED21843A8900EB1402 /* QRDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRDisplayViewController.swift; sourceTree = "<group>"; };
 		818D74F421845D2500EB1402 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		818F412A240633D10082CE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		818F412C240634070082CE98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		818F412D240634070082CE98 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/Info.plist"; sourceTree = "<group>"; };
 		81926A06231DFEC500CAF498 /* RemoteVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteVersion.swift; sourceTree = "<group>"; };
 		819333FE223FD08600DCFD93 /* AssetPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetPageViewController.swift; sourceTree = "<group>"; };
 		8193340022408DDC00DCFD93 /* AssetVCSharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetVCSharedData.swift; sourceTree = "<group>"; };
@@ -1205,7 +1209,6 @@
 		81C88E0921746B39005F17F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81C88E0B21746B3B005F17F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81C88E0E21746B3B005F17F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81C88E1021746B3B005F17F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81C88E1521746B3B005F17F7 /* platonWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = platonWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C88E1921746B3B005F17F7 /* platonWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = platonWalletUITests.swift; sourceTree = "<group>"; };
 		81C88E1B21746B3B005F17F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1797,7 +1800,7 @@
 				81729BA623274C0200CBD72F /* PrefixHeader.pch */,
 				81C88E0B21746B3B005F17F7 /* Assets.xcassets */,
 				812D94A8218BEE1A002A48B0 /* Config */,
-				81C88E1021746B3B005F17F7 /* Info.plist */,
+				818F412B240633D10082CE98 /* Info.plist */,
 				81C88E0D21746B3B005F17F7 /* LaunchScreen.storyboard */,
 				81EE99C021757E40008DF8CB /* Localizable.strings */,
 				81C88E0821746B39005F17F7 /* Main.storyboard */,
@@ -2819,6 +2822,7 @@
 				81DD58E4238BA24D007844ED /* WalletManagerTableViewCell.xib in Resources */,
 				9A25B9AF2187252300B9433A /* ExportToQRCodeViewController.xib in Resources */,
 				81E072BA223A8359003F6A28 /* AlertStylePopViewController.xib in Resources */,
+				818F412E24064E630082CE98 /* Info.plist in Resources */,
 				9ADE44EB217D792A006F1C81 /* WalletCreateOrImportViewController.xib in Resources */,
 				9ADE45212180074C006F1C81 /* ImportMnemonicOrPrivateKeyViewController.xib in Resources */,
 				9ADB60BC222E809F0044918D /* AssetReceiveViewControllerV060.xib in Resources */,
@@ -4002,6 +4006,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		818F412B240633D10082CE98 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				818F412A240633D10082CE98 /* Base */,
+				818F412C240634070082CE98 /* en */,
+				818F412D240634070082CE98 /* zh-Hans */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 		81C88E0821746B39005F17F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -4278,7 +4292,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 066997A993A7BD843316E036 /* Pods-platonWallet.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -4310,7 +4324,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6C6C66ABA19AFA1DEE6933E /* Pods-platonWallet.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconBeta;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
